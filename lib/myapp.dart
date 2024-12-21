@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatappscreen/feautre/home/view/screens/home.dart';
+import 'package:whatappscreen/feautre/stories/view/screens/storyscreen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Home(),
+      home: const StoryScreen(),
     );
   }
 }
